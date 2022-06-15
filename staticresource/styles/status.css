@@ -1,0 +1,8 @@
+.solution-link {
+    text-decoration: none;
+}
+.fix-head {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

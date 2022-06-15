@@ -1,0 +1,33 @@
+.task-box {
+    width: 100%;
+    padding: 0.5rem 0;
+}
+.task-link {
+    text-decoration: none;
+}
+.solved {
+    background: rgba(92, 184, 92, 0.25);
+    border: #5cb85c 1px solid;
+    color: #5cb85c;
+}
+.unsolved {
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
+.w-40 {
+    width: 40%;
+}
+.w-60 {
+    width: 60%;
+}
+.fg-1 {
+    flex: 1 0 auto!important;
+}
+.fg-3 {
+    flex: 3 0 auto!important;
+}
+.fix-head {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

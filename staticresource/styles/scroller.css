@@ -1,0 +1,27 @@
+.scroller-y {
+    overflow-y: auto;
+}
+.scroller-y::-webkit-scrollbar {
+    margin-left: 3px;
+    width: 0.3em;
+    background: transparent;
+}
+.scroller-y::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.3em;
+    width: 1em;
+}
+
+.scroller-x {
+    overflow-x: auto;
+}
+.scroller-x::-webkit-scrollbar {
+    margin-top: 3px;
+    height: 0.3em;
+    background: transparent;
+}
+.scroller-x::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.3em;
+    height: 1em;
+}
